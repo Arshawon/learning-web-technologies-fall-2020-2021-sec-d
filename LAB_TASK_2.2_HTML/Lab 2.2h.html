@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML forms</title>
+</head>
+<body>
+<table style="width:100%">
+  <h2 align="center"> PERSON PROFILE:</h2>   
+	<form>
+		
+	<fieldset>
+
+			Name: <input type="text" name="name"  > <br><br>
+		
+		Email: <input type="email" name="email"  > <br><br>
+	
+		Date Of Birth: 
+        <input type="Number" name="dob"  > dd/	<input type="Number" name="dob"  > mm/ <input type="Number" name="dob"  > yyyy <br><br>
+
+		Gender: 
+		 <input type="radio" name="gender"  > Male 
+				<input type="radio" name="gender"  > Female
+				<input type="radio" name="gender"  > other <br><br>
+
+		Blood Group:
+		  <select id="Blood" name="Blood">
+    <option value="a+">A+</option>
+    <option value="a-">A-</option>
+    <option value="b+">B+</option>
+    <option value="o-">O-</option>
+   <option value="ab-">AB-</option>
+    <option value="ab+">AB+</option>
+    <option value="o+">O+</option>
+		 </select><br><br>
+       
+        
+        Degree:
+
+	
+		    <input type="checkbox" name="degree"> SSC
+			<input type="checkbox" name="degree"> HSC
+			<input type="checkbox" name="degree"> BSc<br><br>
+		
+		  Photo:
+		                 <label for="img"></label>
+                         <input type="file" id="img" name="img" accept="image/*"><br><br>
+		
+
+
+		
+	</fieldset>
+
+<fieldset>
+	  <button type="submit" value="Submit">Submit</button>
+      <button type="reset" value="Reset">Reset</button> 
+
+</fieldset>
+	</form>
+	</table>
+</body>
+</html>
