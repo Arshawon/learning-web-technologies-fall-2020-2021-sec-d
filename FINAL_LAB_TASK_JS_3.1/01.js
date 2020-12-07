@@ -1,14 +1,28 @@
 "use strict"
 
 
+function nv() {
+    
+    var data = document.getElementById('nameId').value;
+    
+    if (data == "") {
+        
+        window.alert('Name is empty!');
+        
+    }
+    
+}
 
 
-function f1(){
-	let data= document.getElementById('name').value;
-	if(data == ''){
-		document.getElementById('head').innerHTML = 'invalid data';		
-	}else{
-		document.getElementById('head').innerHTML = data;
-	}
 
+function ev(){
+    
+    var data = document.getElementById('emailId').value;
+    
+    if (data == "") {
+        
+        window.alert('Email is empty!');
+        
+    }
+    
 }
